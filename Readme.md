@@ -1,3 +1,3 @@
 # Sample
 
-This Project was creted from local system
+This Project was creted from local system.
