@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <h1>Flight Booking</h1>
+        <form id="search-form">
+            <input type="text" id="from" placeholder="From" required>
+            <input type="text" id="to" placeholder="To" required>
+            <input type="date" id="date" required>
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <main>
+        <div id="flight-list" class="flight-list">
+            <!-- Flights will be dynamically loaded here -->
+        </div>
+        <div id="loading" class="loading">Loading...</div>
+    </main>
+
+    <script src="app1.js"></script>
+</body>
+</html>
